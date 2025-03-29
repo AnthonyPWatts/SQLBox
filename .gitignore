@@ -1,0 +1,106 @@
+# OS metadata files
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Local .terraform directories
+**/.terraform/*
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# Terraform variables (can contain secrets)
+*.tfvars
+*.tfvars.json
+
+# Terraform lock and override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.tfstate.lock.info
+.terraform.lock.hcl
+
+# Terraform CLI configuration files
+.terraformrc
+terraform.rc
+
+# Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
+# example: *tfplan*
+
+# Docker - Ignore built images and containers
+*.tar
+*.img
+**/docker-compose.override.yml
+
+# User-specific files
+*.suo
+*.user
+*.csproj.user
+*.rsuser
+*.userosscache
+*.sln.docstates
+
+# User-specific folders
+.vscode/
+.vs/
+_ReSharper.Caches/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# Rider and ReSharper
+.idea/
+*.DotSettings.user
+**/JetBrains.ReSharper*
+
+# Godot
+.import/
+.export/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Entity Framework Migrations
+Migrations/
+
+# Database files
+*.mdf
+*.ldf
+*.sqlite
+*.db
+
+# Generated files
+Generated/
+ServiceFabricBackup/
+
+# Publish
+.publish/
+
+# Others
+*.pidb
+*.svd
